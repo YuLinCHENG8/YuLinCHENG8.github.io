@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>动力学课件(Darwin LAU、Fei CHEN)</title>
+    <link href="/2026/06/11/%E5%8A%A8%E5%8A%9B%E5%AD%A6%E8%AF%BE%E4%BB%B6-Darwin-LAU%E3%80%81Fei-CHEN/"/>
+    <url>/2026/06/11/%E5%8A%A8%E5%8A%9B%E5%AD%A6%E8%AF%BE%E4%BB%B6-Darwin-LAU%E3%80%81Fei-CHEN/</url>
+    
+    <content type="html"><![CDATA[<h1 id="1、自用链接："><a href="#1、自用链接：" class="headerlink" title="1、自用链接："></a>1、自用链接：</h1><p>用于下载CUHK时期Dynamic学习相关课件</p><iframe src="/encrypted/robot_dynamics.html" width="100%" height="380" style="border:1px solid #eee;border-radius:6px;"></iframe>]]></content>
+    
+    
+    <categories>
+      
+      <category>Robotics</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Robot</tag>
+      
+      <tag>Dynamics</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>使用hexo教程</title>
+    <link href="/2026/06/10/%E4%BD%BF%E7%94%A8hexo%E6%95%99%E7%A8%8B/"/>
+    <url>/2026/06/10/%E4%BD%BF%E7%94%A8hexo%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="1、撰写目标："><a href="#1、撰写目标：" class="headerlink" title="1、撰写目标："></a>1、撰写目标：</h1><p>笔者在多日未更新后，已经忘记创建、上传文章的操作。故需要写一篇文章来记录基础的操作流程。此后，学习到了一些新的功能或提升网站“B格的操作也会在此更新”。</p><p>愿与君共勉！不断更新，不断进步，增加自己知识面的广度与深度！</p><h1 id="2、基础操作"><a href="#2、基础操作" class="headerlink" title="2、基础操作"></a>2、基础操作</h1><p>笔者在自己笔记本上的Blog仓库为：E:\Blog 。后面很多基础操作都是在这个目录下进行操作。</p><h2 id="2-1-新建文章"><a href="#2-1-新建文章" class="headerlink" title="2.1 新建文章"></a>2.1 新建文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br>$ hexo new post <span class="hljs-string">&quot;我的第一篇文章&quot;</span><br><br></code></pre></td></tr></table></figure><p>生成的文件在 source&#x2F;_posts&#x2F;我的第一篇文章.md。</p><h2 id="2-2-草稿写作"><a href="#2-2-草稿写作" class="headerlink" title="2.2 草稿写作"></a>2.2 草稿写作</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br>$ hexo new draft “新建草稿”<br><br></code></pre></td></tr></table></figure><p>草稿会存在source&#x2F;_draft&#x2F; 下</p><h2 id="2-3-分类、标签、归档"><a href="#2-3-分类、标签、归档" class="headerlink" title="2.3 分类、标签、归档"></a>2.3 分类、标签、归档</h2><p><strong>归档（Archives）—— 按时间</strong></p><p><strong>分类（Categories）—— 按主题归属</strong></p><p><strong>标签（Tags）—— 按关键词描述</strong></p><p>例如：</p><p><strong>categories</strong>:    - Robotics</p><p><strong>tags</strong>:  - SLAM    - Transformer     - 综述</p><h2 id="2-4-部署博客"><a href="#2-4-部署博客" class="headerlink" title="2.4 部署博客"></a>2.4 部署博客</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br>$ hexo clean    <span class="hljs-comment"># 清理缓存和 public/</span><br><br>$ hexo g        <span class="hljs-comment"># 生成静态文件</span><br><br>$ hexo s        <span class="hljs-comment"># 本地启动预览</span><br><br>$ hexo d        <span class="hljs-comment"># 部署到远程</span><br><br></code></pre></td></tr></table></figure><h2 id="2-5-其他问题"><a href="#2-5-其他问题" class="headerlink" title="2.5 其他问题"></a>2.5 其他问题</h2><p>置顶文章：在 Front-matter 加 top: true。</p><p>加密文章：安装 hexo-blog-encrypt，Front-matter 写 password: xxx。</p><p>多作者协作：推荐用 Git 管理 Hexo 源码（不是 public&#x2F;），每人写完文章 push，再统一部署。</p><p>主题优化：可以修改主题的样式文件（如 Butterfly 的 _layout&#x2F;*.styl），实现自定义公告栏、背景、特效等。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日常</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>闲谈</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ubuntu22.04中UR e系列仿真</title>
+    <link href="/2026/05/18/e%E7%B3%BB%E5%88%97%E4%BB%BF%E7%9C%9F/"/>
+    <url>/2026/05/18/e%E7%B3%BB%E5%88%97%E4%BB%BF%E7%9C%9F/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Ubuntu22-04中UR-e系列仿真（URSim部署）"><a href="#Ubuntu22-04中UR-e系列仿真（URSim部署）" class="headerlink" title="Ubuntu22.04中UR e系列仿真（URSim部署）"></a>Ubuntu22.04中UR e系列仿真（URSim部署）</h1><h4 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h4><p>官方推荐并测试通过的系统是 Linux Mint 17.1（基于 Ubuntu 14.04），由于官方不保证在Ubuntu22.04中可以运行，博主在工作中为了验证末端法兰运行情况，需要提供UR机械臂环境。故此贴用于指导URSim在Ubuntu22.04部署、使用。</p><h4 id="2、模拟器与真实机器人的差异"><a href="#2、模拟器与真实机器人的差异" class="headerlink" title="2、模拟器与真实机器人的差异"></a>2、模拟器与真实机器人的差异</h4><p>模拟器无法完全替代真实物理机器人的所有功能以下功能在模拟器中无法使用：</p><ul><li>无法使用急停功能（Emergency stop）。</li><li>无法设定输入 I&#x2F;O 的状态。</li><li>运动轨迹是绝对理想化的（真实的物理误差不会体现）。</li><li>没有物理碰撞检测（不管是机器人本体碰撞还是与周围环境的碰撞都不会生效）。</li><li>力模式（Force mode）无法工作。</li></ul><h4 id="3、网站下载（可能过期，需要官网找最新版本）"><a href="#3、网站下载（可能过期，需要官网找最新版本）" class="headerlink" title="3、网站下载（可能过期，需要官网找最新版本）"></a>3、网站下载（可能过期，需要官网找最新版本）</h4><p><a href="https://www.universal-robots.com/download/software-ur-series/simulator-linux/offline-simulator-ur-series-e-series-ur-sim-for-linux-5220/">https://www.universal-robots.com/download/software-ur-series/simulator-linux/offline-simulator-ur-series-e-series-ur-sim-for-linux-5220/</a></p><h4 id="4、安装操作流程"><a href="#4、安装操作流程" class="headerlink" title="4、安装操作流程"></a>4、安装操作流程</h4><p>sudo apt-get update -y</p><p>sudo apt-get install -y openjdk-8-jdk</p><p>sudo apt-get install -y maven</p><p>sudo apt-get install -y runit</p><p>sudo apt-get update -y</p><p>sudo apt-get install -y libcurl4</p><p>tar xvzf URSim_Linux-5.22.2.1214876.tar.gz</p><p>rm URSim_Linux-5.22.2.1214876.tar.gz</p><p>cd ursim-5.22.2.1214876&#x2F;</p><p>替换install.sh中的</p><p>commonDependencies&#x3D;’libcurl4 libjava3d-* ttf-dejavu* fonts-ipafont fonts-baekmuk fonts-nanum fonts-arphic-uming fonts-arphic-ukai’</p><p>sudo bash -c “apt-get -y install lib32gcc-s1-amd64-cross lib32stdc++6 libc6-i386 $commonDependencies &amp;&amp; (echo ‘$packages’ | xargs dpkg -i –force-overwrite)”</p><p>cd ursim-dependencies&#x2F;</p><p>ar x libxmlrpc-c-ur_1.33.14_amd64.deb</p><p>mkdir extras-control</p><p>tar -C extras-control -zxf control.tar.gz</p><p>cd extras-control&#x2F;</p><p>替换control中的：</p><p>Depends: lib32gcc-s1-amd64-cross, lib32stdc++6 (&gt;&#x3D; 4.1.1), libc6-i386 (&gt;&#x3D; 2.3.4)</p><p>tar cfz control.tar.gz *</p><p>mv control.tar.gz ..</p><p>cd ..</p><p>ar r new_urtool3_amd64.deb debian-binary control.tar.gz data.tar.gz</p><p>rm libxmlrpc-c-ur_1.33.14_amd64.deb</p><p>cd ..</p><p>export JAVA_HOME&#x3D;&#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;java-8-openjdk-amd64</p><p>export PATH&#x3D;$JAVA_HOME&#x2F;bin:$PATH</p><p>echo ‘#Java 8 for URSim’ &gt;&gt; ~&#x2F;.bashrc</p><p>echo ‘export JAVA_HOME&#x3D;&#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;java-8-openjdk-amd64’ &gt;&gt; ~&#x2F;.bashrc</p><p>echo ‘export PATH&#x3D;$JAVA_HOME&#x2F;bin:$PATH’ &gt;&gt; ~&#x2F;.bashrc</p><p>.&#x2F;install.sh</p><p>替换startcontrol:</p><p>echo mypasswd | sudo -S HOME&#x3D;$SCRIPT_DIR $SCRIPT_DIR&#x2F;URControl -m $PRODUCT_VERSION -r &amp;&gt;$SCRIPT_DIR&#x2F;URControl.log &amp;</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Robotics</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2026/05/15/hello-world/"/>
+    <url>/2026/05/15/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>这是该网站的第一条帖子，该网站的使用HEXO Fluid主体，下面是一些基础操作信息。<br>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Fluid-Theme"><a href="#Fluid-Theme" class="headerlink" title="Fluid Theme"></a>Fluid Theme</h3><p><a href="https://fluid.ist/docs/guide/#%E5%88%9B%E5%BB%BA%E5%85%B3%E4%BA%8E%E9%A1%B5">https://fluid.ist/docs/guide/#%E5%88%9B%E5%BB%BA%E5%85%B3%E4%BA%8E%E9%A1%B5</a></p><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日常</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
